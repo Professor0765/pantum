@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWD Pantum Support</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-print"></i>
+                    <h1>TWD Pantum Support</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#videos" class="nav-link active">Videos</a>
+                    <a href="#documents" class="nav-link">Documents</a>
+                    <a href="#about" class="nav-link">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Welcome to TWD Pantum Support</h2>
+                    <p>Access your Google Drive videos and documents for seamless support experience</p>
+                    <button class="btn-primary">
+                        <a href="https://drive.google.com/drive/folders/1cb-AYMRox21UVFJVscJ2FQ-Swcfewvck" style="text-decoration: none; color: white;">
+
+                        <i class="fas fa-cloud"></i>
+                        Load Drive Content </a>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Videos Section -->
+            <section id="videos" class="content-section">
+                <div class="section-header">
+                    <h3><i class="fas fa-video"></i> Support Videos</h3>
+                    <p>Watch helpful tutorials and guides</p>
+                </div>
+                <div class="content-grid" id="videos-grid">
+                    <!-- Videos will be loaded here -->
+                    <div class="loading-placeholder">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading videos...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documents Section -->
+            <section id="documents" class="content-section">
+                <div class="section-header">
+                    <h3><i class="fas fa-file-pdf"></i> Support Documents</h3>
+                    <p>Download manuals, guides, and technical documents</p>
+                </div>
+                <div class="content-grid" id="documents-grid">
+                    <!-- Documents will be loaded here -->
+                    <div class="loading-placeholder">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading documents...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="content-section">
+                <div class="section-header">
+                    <h3><i class="fas fa-info-circle"></i> About TWD Pantum Support</h3>
+                </div>
+                <div class="about-content">
+                    <div class="about-card">
+                        <h4>Our Mission</h4>
+                        <p>Providing comprehensive support for Pantum printers and devices across Nepal. We offer technical assistance, troubleshooting guides, and maintenance resources to ensure optimal performance of your printing solutions.</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>Services</h4>
+                        <ul>
+                            <li>Technical Support</li>
+                            <li>Driver Installation</li>
+                            <li>Troubleshooting Guides</li>
+                            <li>Maintenance Tips</li>
+                            <li>Product Documentation</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <h4>Contact</h4>
+                        <p><i class="fas fa-phone"></i> +977-9801601855</p>
+                        <p><i class="fas fa-envelope"></i> support@ittradersnepal.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 TWD Pantum Support. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal for viewing content -->
+    <div id="content-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
